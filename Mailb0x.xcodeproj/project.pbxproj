@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9AC20451A06B274004A76AD /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC20441A06B274004A76AD /* MailboxViewController.swift */; };
+		D9CBECE61A074EE8000A8EF5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBECE51A074EE8000A8EF5 /* MessageViewController.swift */; };
 		D9CBF19A1A06B125003309A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBF1991A06B125003309A9 /* AppDelegate.swift */; };
 		D9CBF19C1A06B125003309A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBF19B1A06B125003309A9 /* ViewController.swift */; };
 		D9CBF19F1A06B125003309A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CBF19D1A06B125003309A9 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9AC20441A06B274004A76AD /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		D9CBECE51A074EE8000A8EF5 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		D9CBF1941A06B125003309A9 /* Mailb0x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mailb0x.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CBF1981A06B125003309A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9CBF1991A06B125003309A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				D9CBF1A01A06B125003309A9 /* Images.xcassets */,
 				D9CBF1A21A06B125003309A9 /* LaunchScreen.xib */,
 				D9CBF1971A06B125003309A9 /* Supporting Files */,
+				D9AC20441A06B274004A76AD /* MailboxViewController.swift */,
+				D9CBECE51A074EE8000A8EF5 /* MessageViewController.swift */,
 			);
 			path = Mailb0x;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				D9CBF19C1A06B125003309A9 /* ViewController.swift in Sources */,
 				D9CBF19A1A06B125003309A9 /* AppDelegate.swift in Sources */,
+				D9CBECE61A074EE8000A8EF5 /* MessageViewController.swift in Sources */,
+				D9AC20451A06B274004A76AD /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mailb0x/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +356,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mailb0x/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +417,7 @@
 				D9CBF1B51A06B125003309A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9CBF1B61A06B125003309A9 /* Build configuration list for PBXNativeTarget "Mailb0xTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				D9CBF1B81A06B125003309A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
